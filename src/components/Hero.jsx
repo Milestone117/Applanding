@@ -42,9 +42,10 @@ const Hero = ({ id }) => {
               <FaRocket className="mr-2 group-hover:rotate-12 transition-transform" />
               <span>Get Started</span>
             </button>
+            {/* Enhanced Learn More button with better iOS visibility */}
             <button 
               onClick={() => scrollToSection('features')}
-              className="border-2 border-white/80 backdrop-blur-sm text-white hover:bg-white/10 font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-full transition-all duration-300 shadow-lg"
+              className="bg-black/40 border-2 border-white text-white hover:bg-black/50 font-bold py-3 sm:py-4 px-6 sm:px-8 rounded-full transition-all duration-300 shadow-lg"
             >
               Learn More
             </button>
@@ -65,4 +66,4 @@ const Hero = ({ id }) => {
   )
 }
 
-export default Hero 
+export default Hero
